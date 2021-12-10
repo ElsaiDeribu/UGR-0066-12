@@ -1,2 +1,5 @@
-# UGR-0066-12
-My Portfolio Project
+# Personal Portfolio and Profile Page
+Name: Elsai Deribu Shumi
+ID: UGR/0066/12
+
+
