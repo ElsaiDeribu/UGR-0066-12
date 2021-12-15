@@ -24,12 +24,13 @@
 /* footer designs */
 .footer {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: silver;
+  color: black;
   grid-area: footer;
   height: 12vh;
 }
 .socials {
+  color: white;
   list-style: none;
   display: flex;
   justify-content: space-evenly;

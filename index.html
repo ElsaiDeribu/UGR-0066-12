@@ -7,13 +7,19 @@
     <title>Home</title>
     <link href="css/index.css" rel="stylesheet" />
     <link href="images/capital-e-144-245689.png" rel="icon" />
+    <script
+      src="https://kit.fontawesome.com/16341d2f20.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <div class="logo">
-          <h4>Elsai Deribu</h4>
+          <!-- <img src="images/webLogo.PNG"> -->
         </div>
+        
+  
         <div class="search-bar">
           <input
             class="search-area"
@@ -22,19 +28,27 @@
             placeholder="Search"
           />
         </div>
-        <div class="nav-bar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="html/about.html">About</a></li>
-          <li><a href="html/contact.html">Contact</a></li>
-          <li><a href="html/skills.html">Skills</a></li>
-          <li><a href="html/experience.html">Experience</a></li>
-          <li><a href="html/projects.html">Projects</a></li>
-        </div>
+          <div class="nav-bar">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <div class="mainMenu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="html/about.html">About</a></li>
+              <li><a href="html/contact.html">Contact</a></li>
+              <li><a href="html/skills.html">Skills</a></li>
+              <li><a href="html/experience.html">Experience</a></li>
+              <li><a href="html/projects.html">Projects</a></li>
+              <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </div>
+          </div>
+       
       </div>
+  
+     
+      
       <div class="main-content">
         <img class="main-content-logo" src="images/logo.JPG" />
         <h3 class="greeting">Hello I'm Elsai</h3>
-        <h4 class="welcome">Welcome to My Website</h4>
+        <h3 class="welcome">Welcome to My Website</h3>
         <div class="dots"><div class="inner-dots"></div></div>
         <p class="main-paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
@@ -49,20 +63,22 @@
           sapiente aperiam asperiores corporis minus inventore, ad ducimus in
           amet? Aliquam, iusto. mollitia nisi.
         </p>
-        <a class="learn-more" href="html/about.html">Learn More</a>
+  
+        <a href="html/about.html" class="learn-more">Learn More</a>
+        </a>
       </div>
       <div class="footer">
-        <div class="socials">
-          <li><a href="#">facebook</a></li>
-          <li><a href="#">twitter</a></li>
-          <li><a href="#">instagram</a></li>
-          <li><a href="#">telegram</a></li>
-        </div>
-        <div class="footer-bottom">
-          <p>copyright &copy; 2021 ElsaiDeribu</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing?</p>
+          <ul class="socials">
+            <li class="icon"><a  href="#">
+              <i class="fab fa-facebook-f"></i></a></li>
+            <li class="icon">  <a href="#">
+              <i class="fab fa-telegram"></i></a></li>
+            <li class="icon"><a href="#">
+              <i class="fab fa-instagram"></i></a></li>
+            </ul>
+        <!-- <p class="cpy-right">&copy; elsai 2021</p> -->
         </div>
       </div>
-    </div>
+    <script src="javaScript\humbergerMenu.js"></script>
   </body>
 </html>
