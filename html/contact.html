@@ -4,73 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Contact</title>
     <link href="../css/contact.css" rel="stylesheet" />
-    <link href="../images/capital-e-144-245689.png" rel="icon" />
+    <link href="images/capital-e-144-245689.png" rel="icon" />
     <script
       src="https://kit.fontawesome.com/16341d2f20.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body >
     <div class="container">
-      <div class="header">
-        <div class="logo">
-          <img src="images/logo.JPG" height="100px" width="100px" /> Elsai
-          Deribu
-        </div>
-        <div class="search-bar">
-          <input
-            class="search-area"
-            type="search"
-            name="search"
-            placeholder="Search"
-          />
-        </div>
-        <div class="nav-bar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
+      <header>
+        <div class="Header">
+          <div class="Header__logo">
+            <img class="Header__logo__image" src="../images/webLogo.PNG" height="70px" width="60px" alt="logo "  >
           </div>
-        </div>
-      </div>
-      <div class="main-content">
-        <div class="contact-links">
-            <img class="main-content-logo" src="../images/logo.JPG" />
-            <a href="#"><i class="far fa-envelope"></i>elsaideribu7@gmail.com</a><br>
-            <a href="#"><i class="fas fa-phone-alt"></i>+251910738802</a><br>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-       <form>
-           <fieldset>
-               <legend>Mail</legend>
-               <label class="name">Name: <input type="text" name = "Name"><br></label>
-               <label class = "form email">Email: <input type="text" name = "Email"><br></label>
-               <label class="form subject">Subject <input type="text" name = "Subject"><br></label>
-               <label class="form message">Message: <textarea name = "Message"></textarea><br></label>
-               <label><input type="submit" name="Send Message"></label>
-           </fieldset>
-       </form>
+          
+            <label class="srOnly" for="searchSite" >Search</label>
+              <div class="Header__search-bar">
+              <input type="text"  class="Header__search-bar__searchTerm" placeholder="search">
+              <button type="submit" class="Header__search-bar__searchButton" value="search">
+                <span class="srOnly">Search</span>
+                <i class="fa fa-search"></i>
+             </button>
+          </div>
         
-      </div>
-      <div class="footer">
-        <div class="socials">
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-telegram"></i></a></li>
-              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            
+               
+            <div class="Header__nav-bar">
+              <div class="Header__nav-bar__openMenu"><i class="fa fa-bars"></i></div>
+              <nav class="Header__nav-bar__mainMenu">
+                  <div class="Header__nav-bar__mainMenu__closeMenu"><i class="fa fa-times"></i></div>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+              <nav>
+            </div>
+         
         </div>
-        <div class="footer-bottom">
-          <p>copyright &copy; 2021 ElsaiDeribu</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing?</p>
+      </header>
+      <main>
+        
+          <div class="Main">
+            <div class="overlay">
+              <img class="Main__image" src="../images/logo.JPG" />
+              <div class="Main__contact-links">
+                <div class="Main__contact-links__contacts">
+                    <a class="Main__contact-links__contacts--Email" href="#"><i class="far fa-envelope"></i>elsaideribu7@gmail.com</a><br>
+                     <a class="Main__contact-links__contacts--Tel"  href="#"><i class="fas fa-phone-alt"></i>+251910738802</a>
+                  
+                </div>
+              
+              <div class="Main__contact-links__socials">
+                <a class="Main__contact-links__socials--facebook MainIcon" href="#"><i class="fab fa-facebook"></i></a>
+                 <a class="Main__contact-links__socials--instagram MainIcon" href="#"><i class="fab fa-instagram"></i></a>
+                 <a class="Main__contact-links__socials--telegram MainIcon" href="#"><i class="fab fa-telegram"></i></a>
+              </div>
+              
+            </div>
+            <form>
+            <fieldset>
+                <legend>Mail</legend>
+                <label class="name">Name: <input type="text" name = "Name"><br></label>
+                <label class = "form email">Email: <input type="text" name = "Email"><br></label>
+                <label class="form subject">Subject <input type="text" name = "Subject"><br></label>
+                <label class="form message">Message: <textarea name = "Message"></textarea><br></label>
+                <label><input type="submit" name="Send Message"></label>
+            </fieldset>
+            </form> 
+
+         
         </div>
+        </div>
+      </main>
+     
+      <footer>
+        <div class="Footer">
+          <ul class="Footer__socials">
+            <li class="Footer__icon--facebook icon"><a  href="https://www.facebook.com/elsai.deribu/">
+              <span class="srOnly">facebook</span>
+              <i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li class="Footer__icon--telegram icon">  <a href="http://t.me/Dream_the_impossible">
+              <span class="srOnly">telegram</span>
+              <i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+            <li class="Footer__iocn--instagram icon"><a href="https://www.instagram.com/elsaideribu/">
+              <span class="srOnly">instagram</span>
+              <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+        
+       
+      </footer>  
       </div>
-    </div>
+    <script src="javaScript\humbergerMenu.js"></script>
   </body>
 </html>
+
+

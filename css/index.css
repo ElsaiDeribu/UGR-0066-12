@@ -164,6 +164,15 @@
   height: auto;
   width: 20%;
   clip-path: circle();
+  transition: 3s;
+}
+.Main__image:hover {
+  float: center;
+  margin-left: auto;
+  margin-top: 5%;
+  height: auto;
+  width: 30%;
+  clip-path: circle();
 }
 .overlay {
   background: #00000073;
