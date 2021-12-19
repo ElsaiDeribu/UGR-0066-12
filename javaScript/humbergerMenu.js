@@ -1,6 +1,6 @@
-const mainMenu = document.querySelector('.mainMenu');
-const openMenu = document.querySelector('.openMenu');
-const closeMenu = document.querySelector('.closeMenu');
+const mainMenu = document.querySelector('.Header__nav-bar__mainMenu');
+const openMenu = document.querySelector('.Header__nav-bar__openMenu');
+const closeMenu = document.querySelector('.Header__nav-bar__mainMenu__closeMenu');
 
 
 openMenu.addEventListener('click', show);

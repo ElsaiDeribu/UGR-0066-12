@@ -11,45 +11,52 @@
       src="https://kit.fontawesome.com/16341d2f20.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body >
     <div class="container">
       <header>
-        <div class="header">
-          <div class="logo">
-            <img class="image-logo" src="images/webLogo.PNG" height="70px" width="60px"   >
+        <div class="Header">
+          <div class="Header__logo">
+            <img class="Header__logo__image" src="images/webLogo.PNG" height="70px" width="60px" alt="logo "  >
           </div>
-          <div class="search-bar">
-            <input
-              class="search-area"
-              type="search"
-              name="search"
-              placeholder="Search"
-            />
+          
+            <label class="srOnly" for="searchSite" >Search</label>
+              <div class="Header__search-bar">
+              <input type="text"  class="Header__search-bar__searchTerm" placeholder="search">
+              <button type="submit" class="Header__search-bar__searchButton" value="search">
+                <span class="srOnly">Search</span>
+                <i class="fa fa-search"></i>
+             </button>
           </div>
-            <div class="nav-bar">
-              <div class="openMenu"><i class="fa fa-bars"></i></div>
-              <div class="mainMenu">
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
+        
+               
+            <div class="Header__nav-bar">
+              <div class="Header__nav-bar__openMenu"><i class="fa fa-bars"></i></div>
+              <nav class="Header__nav-bar__mainMenu">
+                  <div class="Header__nav-bar__mainMenu__closeMenu"><i class="fa fa-times"></i></div>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="html/about.html">About</a></li>
                 <li><a href="html/contact.html">Contact</a></li>
                 <li><a href="html/skills.html">Skills</a></li>
                 <li><a href="html/experience.html">Experience</a></li>
                 <li><a href="html/projects.html">Projects</a></li>
-                
-              </div>
+              <nav>
             </div>
          
         </div>
       </header>
       <main>
-        <div class="main-content">
-          <img class="main-content-logo" src="images/logo.JPG" />
-          <h3 class="greeting">Hello I'm Elsai</h3>
-          <h3 class="welcome">Welcome to My Website</h3>
-          <div class="dots"><div class="inner-dots"></div></div>
-          <p class="main-paragraph">
+        
+          <div class="Main">
+            <div class="overlay">
+          <img class="Main__image" src="images/logo.JPG"  alt="photograph of Elsai"/>
+          <h1 class="Main__greeting">Hello I'm Elsai</h1>
+          <h2 class="Main__welcome">Welcome to My Website</h2>
+          <div class="Main__dots"></div>
+          <p class="Main__paragraph">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
             veniam voluptatibus eius dolorum, cumque excepturi aperiam impedit
             harum natus nobis explicabo repellat molestiae odit suscipit rerum,
@@ -63,22 +70,29 @@
             amet? Aliquam, iusto. mollitia nisi.
           </p>
     
-          <a href="html/about.html" class="learn-more">Learn More</a>
+          <a href="html/about.html" class=" Main__button">Read More About Me</a>
           </a>
+        </div>
         </div>
       </main>
      
       <footer>
-        <div class="footer">
-          <ul class="socials">
-            <li class="icon"><a  href="#">
-              <i class="fab fa-facebook-f"></i></a></li>
-            <li class="icon">  <a href="#">
-              <i class="fab fa-telegram"></i></a></li>
-            <li class="icon"><a href="#">
-              <i class="fab fa-instagram"></i></a></li>
+        <div class="Footer">
+          <ul class="Footer__socials">
+            <li class="Footer__icon--facebook icon"><a  href="https://www.facebook.com/elsai.deribu/">
+              <span class="srOnly">facebook</span>
+              <i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li class="Footer__icon--telegram icon">  <a href="http://t.me/Dream_the_impossible">
+              <span class="srOnly">telegram</span>
+              <i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+            <li class="Footer__iocn--instagram icon"><a href="https://www.instagram.com/elsaideribu/">
+              <span class="srOnly">instagram</span>
+              <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
+
         </div>
+        
+       
       </footer>  
       </div>
     <script src="javaScript\humbergerMenu.js"></script>
