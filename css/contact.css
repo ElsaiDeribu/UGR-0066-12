@@ -153,34 +153,57 @@
     align-items: center;
     padding-right: 70%;
   }
+  .overlay {
+    background: #00000073;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+  }
+  .Main__image {
+    float: center;
+
+    margin-top: 5%;
+    height: auto;
+    width: 20%;
+    clip-path: circle();
+    transition: 3s;
+    margin-left: 5%;
+  }
+  .Main__image:hover {
+    float: center;
+    margin-top: 5%;
+    height: auto;
+    width: 30%;
+    clip-path: circle();
+    transition: 3s;
+    margin-left: 5%;
+  }
+  /* form {
+    margin-right: 0%;
+  } */
 }
 
 /* main-content-design*/
 
 .Main__image {
   float: center;
-
+  margin-bottom: 5%;
   margin-top: 5%;
   height: auto;
   width: 20%;
   clip-path: circle();
   transition: 3s;
-}
-.Main__image:hover {
-  float: center;
-  margin-left: auto;
-  margin-top: 5%;
-  height: auto;
-  width: 30%;
-  clip-path: circle();
+  margin-left: 5%;
 }
 .overlay {
   background: #00000073;
   z-index: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 100vh;
 }
 .Main {
   grid-area: main-content;
@@ -198,6 +221,7 @@
   align-items: center;
   font-size: 3em;
   transition: 0.5s;
+  margin-top: 20%;
 }
 .Main__conatac-links__contacts {
   display: flex;
@@ -211,6 +235,45 @@
 .MainIcon:hover {
   font-size: 1.5em;
 }
+.Main__form {
+  background-color: #bcb8b17d;
+  border-radius: 40px;
+  padding: 2%;
+  height: fit-content;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+fieldset {
+  border: none;
+  width: 100%;
+}
+.Main__form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.Main__form__submitBtn {
+  width: 60%;
+  border-radius: 8px;
+}
+.Main__form__inputs {
+  margin: 3%;
+}
+.Main__contact-links__contacts--Tel {
+  background-color: #bcb8b17d;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 1.3em;
+}
+.Main__contact-links__contacts--Email {
+  background-color: #bcb8b17d;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 1.3em;
+  margin-bottom: 10%;
+}
+
 /* footer designs */
 .Footer {
   display: flex;

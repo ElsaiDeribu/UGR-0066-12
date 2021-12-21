@@ -55,8 +55,9 @@
               <img class="Main__image" src="../images/logo.JPG" />
               <div class="Main__contact-links">
                 <div class="Main__contact-links__contacts">
-                    <a class="Main__contact-links__contacts--Email" href="#"><i class="far fa-envelope"></i>elsaideribu7@gmail.com</a><br>
-                     <a class="Main__contact-links__contacts--Tel"  href="#"><i class="fas fa-phone-alt"></i>+251910738802</a>
+                  <div class="Main__contact-links__contacts--Email"><a  href="#"><i class="far fa-envelope"></i>   elsaideribu7@gmail.com</a></div>
+                    <div class="Main__contact-links__contacts--Tel"><a   href="#"><i class="fas fa-phone-alt"></i>   +251910738802</a></div>
+                     
                   
                 </div>
               
@@ -67,14 +68,16 @@
               </div>
               
             </div>
-            <form>
-            <fieldset>
-                <legend>Mail</legend>
-                <label class="name">Name: <input type="text" name = "Name"><br></label>
-                <label class = "form email">Email: <input type="text" name = "Email"><br></label>
-                <label class="form subject">Subject <input type="text" name = "Subject"><br></label>
-                <label class="form message">Message: <textarea name = "Message"></textarea><br></label>
-                <label><input type="submit" name="Send Message"></label>
+            <form class="Main__form">
+            <fieldset >
+              <legend><b>Mail</b></legend>
+              <div class="Main__form__fieldset">
+                <div class="Main__form__inputs"> <label class="Main__form--name name input">Name   <input placeholder="Type your name here..." type="text" name = "Name"><br></label></div>
+                <div class="Main__form__inputs"> <label class = "Main__form--email email input">Email  <input placeholder="Type your email here..." type="text" name = "Email"><br></label></div>
+                <div class="Main__form__inputs"><label class="Main__form--subject subject input">Subject<input placeholder="subject..." type="text" name = "Subject" cols="15"><br></label></div>
+                <div class="Main__form__inputs"><label class="Main__form--message message input">Message <textarea placeholder="Message..." name = "Message" cols="19"></textarea><br></label></div>              
+                </div>
+                <div class="Main__form__inputs"><label><input class="Main__form__submitBtn input" type="submit" name="Send Message" value="Send Message"></label></div>
             </fieldset>
             </form> 
 
@@ -102,7 +105,7 @@
        
       </footer>  
       </div>
-    <script src="javaScript\humbergerMenu.js"></script>
+    <script src="../javaScript\humbergerMenu.js"></script>
   </body>
 </html>
 
