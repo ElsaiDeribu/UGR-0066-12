@@ -187,7 +187,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
   height: 60%;
   background-color: #eeeeee61;
   border-radius: 10px;
@@ -195,15 +195,15 @@
   margin-top: 10%;
 }
 .Main__skills__ordered-list {
-  /* height: 10%;
-  width: 10%; */
+  text-align: left;
   list-style: circle;
   align-items: flex-start;
 }
-.Main__skills__stars {
-  /* height: 10%;
-  width: 10%; */
-  list-style-type: dot;
+.Main__skills__proficiency {
+  text-align: left;
+}
+.Main__skills__proficiency__stars {
+  color: yellow;
 }
 /* aside designs */
 .Aside {

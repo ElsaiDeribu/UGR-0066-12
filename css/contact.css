@@ -204,6 +204,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100%;
 }
 .Main {
   grid-area: main-content;
@@ -214,6 +215,7 @@
   background-size: cover;
   background-attachment: fixed;
   color: black;
+  height: 110vh;
 }
 .Main__contact-links__socials {
   display: flex;
