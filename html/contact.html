@@ -27,9 +27,9 @@
              
             </div>
             
-              <label class="srOnly" for="searchSite" >Search</label>
+              <label class="srOnly" for="search" >Search</label>
                 <div class="Header__search-bar">
-                <input type="text"  class="Header__search-bar__searchTerm" placeholder="search">
+                <input type="text" id="search" class="Header__search-bar__searchTerm" placeholder="search">
                 <button type="submit" class="Header__search-bar__searchButton" value="search">
                   <span class="srOnly">Search</span>
                   <i class="fa fa-search"></i>
@@ -58,7 +58,7 @@
         
           <div class="Main">
             <div class="overlay">
-              <img class="Main__image" src="../images/logo.JPG" />
+              <img class="Main__image" src="../images/logo.JPG" alt="Potograph Elsai"/>
               <div class="Main__contact-links">
                 <div class="Main__contact-links__contacts">
                   <div class="Main__contact-links__contacts--Email"><a  href="#"><i class="far fa-envelope"></i>   elsaideribu7@gmail.com</a></div>
@@ -68,22 +68,23 @@
                 </div>
               
               <div class="Main__contact-links__socials">
-                <a class="Main__contact-links__socials--facebook MainIcon" href="#"><i class="fab fa-facebook"></i></a>
-                 <a class="Main__contact-links__socials--instagram MainIcon" href="#"><i class="fab fa-instagram"></i></a>
-                 <a class="Main__contact-links__socials--telegram MainIcon" href="#"><i class="fab fa-telegram"></i></a>
+                <a class="Main__contact-links__socials--facebook MainIcon" href="https://www.facebook.com/elsai.deribu/"><i class="fab fa-facebook"></i> <span class="srOnly">facebook</span> </a>
+                 <a class="Main__contact-links__socials--instagram MainIcon" href="https://www.instagram.com/elsaideribu/"><i class="fab fa-instagram"></i>  <span class="srOnly">instagram</span></a>
+                 <a class="Main__contact-links__socials--telegram MainIcon" href="http://t.me/Dream_the_impossible"><i class="fab fa-telegram"></i> <span class="srOnly">telegram</span></a>
               </div>
               
             </div>
             <form class="Main__form">
             <fieldset >
-              <legend><b>Mail</b></legend>
+              <legend><h1>Mail</h1></legend>
               <div class="Main__form__fieldset">
                 <div class="Main__form__inputs"> <label class="Main__form--name name input">Name   <input placeholder="Type your name here..." type="text" name = "Name"><br></label></div>
                 <div class="Main__form__inputs"> <label class = "Main__form--email email input">Email  <input placeholder="Type your email here..." type="text" name = "Email"><br></label></div>
                 <div class="Main__form__inputs"><label class="Main__form--subject subject input">Subject<input placeholder="subject..." type="text" name = "Subject" cols="15"><br></label></div>
                 <div class="Main__form__inputs"><label class="Main__form--message message input">Message <textarea placeholder="Message..." name = "Message" cols="19"></textarea><br></label></div>              
                 </div>
-                <div class="Main__form__inputs"><label><input class="Main__form__submitBtn input" type="submit" name="Send Message" value="Send Message"></label></div>
+
+                <div class="Main__form__inputs"><input class="Main__form__submitBtn input" id="btn" type="submit" name="Send Message" value="Send Message"></div>
             </fieldset>
             </form> 
 

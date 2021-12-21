@@ -181,9 +181,6 @@
     transition: 3s;
     margin-left: 5%;
   }
-  /* form {
-    margin-right: 0%;
-  } */
 }
 
 /* main-content-design*/
@@ -223,7 +220,7 @@
   align-items: center;
   font-size: 3em;
   transition: 0.5s;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 .Main__conatac-links__contacts {
   display: flex;
@@ -273,7 +270,7 @@ fieldset {
   border-radius: 5px;
   width: fit-content;
   font-size: 1.3em;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 /* footer designs */
