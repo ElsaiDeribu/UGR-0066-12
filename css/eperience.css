@@ -182,7 +182,6 @@
   background: #00000073;
   z-index: 1;
   padding-bottom: 10%;
-  height: 100vh;
 }
 .Main {
   grid-area: main-content;
@@ -203,11 +202,13 @@
   background-color: #eeeeee61;
   border-radius: 20px;
   padding: 1%;
+  margin-top: 20%;
+  margin-bottom: 15%;
 }
-.Main__experience__table-container {
-}
+
 .Main__experience__table-container__table {
-  border-spacing: 50px 15px;
+  border-spacing: 17px 15px;
+  text-align: left;
 }
 .Main__experience-description {
   display: flex;
